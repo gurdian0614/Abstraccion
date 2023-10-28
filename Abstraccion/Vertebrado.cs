@@ -16,6 +16,8 @@ namespace Abstraccion
 
         public override void imprimir()
         {
+            Console.WriteLine("Nombre: " + nombre);
+            Console.WriteLine("Color: " + color);
             if (validar())
             {
                 Console.WriteLine("Tipo: " + tipo);
